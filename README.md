@@ -15,3 +15,17 @@ Tampilan sebelum
 
 Tampilan setelah
 ![alt text](image-1.png)
+
+**Tugas 2**: Jarak Real-time ke Titik Tetap
+Manfaatkan fungsi Geolocator.distanceBetween dari Langkah 4.
+1. Buat variabel String? distanceToPNB; di MyHomePageState.
+2. Di dalam startTracking (di dalam .listen()), panggil fungsi untuk menghitung
+jarak:
+3. Simpan hasilnya di distanceToPNB menggunakan setState.
+4. Tampilkan distanceToPNB di UI agar jaraknya ter-update secara real-time saat
+Anda bergerak
+
+Hasil 
+![alt text](image-3.png)
+
+![alt text](image-2.png)
